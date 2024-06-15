@@ -24,8 +24,6 @@ public class EventRecieverController {
 
     @GetMapping("/ping")
     public String ping() {
-        System.out.println(confirmationCode);
-        System.out.println("we're here");
         return "pong";
     }
 
