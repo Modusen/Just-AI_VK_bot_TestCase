@@ -15,7 +15,6 @@ import ru.JustAITestCase.Bot.service.MessageServiceImpl;
 @RequestMapping("/event")
 @Setter
 @RequiredArgsConstructor
-@ComponentScan("application.properties")
 public class EventRecieverController {
 
     @Value("{$vk_confirmation_code}")
